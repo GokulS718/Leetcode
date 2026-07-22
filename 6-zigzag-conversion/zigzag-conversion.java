@@ -16,7 +16,9 @@ class Solution {
            if(rows==0 || rows == numRows-1){
               found = !found;
            }
-           rows += found?1:-1;
+        //    rows += found?1:-1;
+        if(found) rows++;
+        else rows--;
         }
         StringBuilder res = new StringBuilder();
         for(int i=0; i < numRows;i++){
