@@ -9,8 +9,8 @@ class Solution {
                 }
             }
         }
-        for(int i=0;i<nums.length;i++){
+       // for(int i=0;i<nums.length;i++){
             System.out.print(Arrays.toString(nums));
-        }
+      //  }
     }
 }
