@@ -17,7 +17,7 @@ class Solution {
              k = k % fact;
              n--;
 
-            if(n>0) fact = fact/n;
+            if(list.size() >0) fact = fact/list.size();
         }
         return sb+"";
     }
